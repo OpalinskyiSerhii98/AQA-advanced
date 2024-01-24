@@ -1,4 +1,4 @@
-let name = 'Serhii'
+const name = 'Serhii'
 const age = 25
 const isMale = true
 const hasChildren = null
