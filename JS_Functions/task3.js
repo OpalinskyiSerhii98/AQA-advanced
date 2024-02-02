@@ -5,9 +5,9 @@ const checkOrder = (available, ordered) => {
     if (ordered === 0) {
         return "Your order is empty"
     }
-    else {
-        return "Your order is accepted"
-    }
+
+    return "Your order is accepted"
+
 }
 
 const result = checkOrder(100, 80)
