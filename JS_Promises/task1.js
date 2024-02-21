@@ -1,4 +1,7 @@
 function printWithDelay (text, ms) {
-    console.log(`${text} ${ms} !`)
+    setTimeout(function (){
+        console.log(`${text} ${ms} !`)
+    }, ms)
 }
-setTimeout(printWithDelay, 1000, "some text appears in", "1 ms")
+
+printWithDelay( "some text will appear in", 1000+" ms")
