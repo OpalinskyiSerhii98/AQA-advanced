@@ -1,4 +1,4 @@
-//h2[text()='Welcome to XPath Practice']
-/ul/li[@id='fruits']
+//h2[1]
+//ul[@id='fruits']/li
 div#colors > span:nth-child(2).color
-tbody tr:nth-of-type(2) td:nth-of-type(2)
+tbody tr:last-of-type td:nth-of-type(2)
