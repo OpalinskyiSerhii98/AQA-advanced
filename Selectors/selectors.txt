@@ -1,0 +1,4 @@
+//h2[1]
+//ul[@id='fruits']/li
+div#colors > span:nth-child(2).color
+tbody tr:last-of-type td:nth-of-type(2)
